@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/inorimachi/melody-flag-summaries#readme",
   "dependencies": {
+    "gitbook-plugin-collapsible-chapters": "^0.1.8",
     "honkit": "^5.1.4"
   }
 }
