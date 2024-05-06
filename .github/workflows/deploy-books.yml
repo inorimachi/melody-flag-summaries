@@ -24,7 +24,7 @@ jobs:
       run: |
         git pull
         git checkout deploy-pages
-        GIT_MERGE_AUTOEDIT=no git merge -s ours origin/main
+        GIT_MERGE_AUTOEDIT=no git merge --allow-unrelated-histories origin/main
     - name: Build
       run: |
         npx honkit build
